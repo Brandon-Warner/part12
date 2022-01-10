@@ -1,0 +1,24 @@
+Script started on Mon Jan 10 13:20:08 2022
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ docker run -t[Kit ubuntu bash hello-world
+bash: hello-world: No such file or directory
+bash-3.2$ docker run -it ubuntu bash hello-world[K[K[K[K[K[K[K[K[K[K[K[K
+]0;root@f7b10cf939d6: /root@f7b10cf939d6:/# [K]0;root@f7b10cf939d6: /root@f7b10cf939d6:/# mkdir       ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@f7b10cf939d6: /root@f7b10cf939d6:/# md kdir /usr/src/               /usr/src/         cd usre  r/src
+]0;root@f7b10cf939d6: /usr/srcroot@f7b10cf939d6:/usr/src# mkdir app
+]0;root@f7b10cf939d6: /usr/srcroot@f7b10cf939d6:/usr/src# ls
+[0m[01;34mapp[0m
+]0;root@f7b10cf939d6: /usr/srcroot@f7b10cf939d6:/usr/src# cd app
+]0;root@f7b10cf939d6: /usr/src/approot@f7b10cf939d6:/usr/src/app# touch index.js
+]0;root@f7b10cf939d6: /usr/src/approot@f7b10cf939d6:/usr/src/app# ls
+index.js
+]0;root@f7b10cf939d6: /usr/src/approot@f7b10cf939d6:/usr/src/app# exit
+exit
+bash-3.2$ exit
+exit
+
+Script done on Mon Jan 10 13:22:38 2022
