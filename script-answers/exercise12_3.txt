@@ -1,0 +1,94 @@
+Script started on Mon Jan 10 13:56:34 2022
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ docker contia[K[Kainer ==[K[K-i bocl[K[Kld_cartwright
+unknown shorthand flag: 'i' in -i
+See 'docker container --help'.
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Run a command in a new container
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+
+bash-3.2$ docker container -i bold_cartwright
+unknown shorthand flag: 'i' in -i
+See 'docker container --help'.
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Run a command in a new container
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+
+bash-3.2$ docker container ls
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+bash-3.2$ docker start -i bold_cartwright
+]0;root@f7b10cf939d6: /root@f7b10cf939d6:/# [K]0;root@f7b10cf939d6: /root@f7b10cf939d6:/# ls
+[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@f7b10cf939d6: /root@f7b10cf939d6:/# cd sr    usr/src/app
+]0;root@f7b10cf939d6: /usr/src/approot@f7b10cf939d6:/usr/src/app# ls
+index.js
+]0;root@f7b10cf939d6: /usr/src/approot@f7b10cf939d6:/usr/src/app# nano index.js
+[?2004h[?1049h[22;0;0t[1;60r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[58;73H(B[0;7m[ Reading... ](B[m[58;72H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                               index.js                                                                          [1;158H(B[m[59d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[59;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[60d(B[0;7m^X(B[m Exit[60;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[60;120H(B[0;7mM-6(B[m Copy Text    (B[0;7m^Q(B[m Where Was[58d[2d[39;49m(B[m[?12l[?25h[?25l[1;150H(B[0;7mModified(B[m[2dc[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25l([?12l[?25h[?25l'[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l W[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l[2;13H(B[0;1m[35m'Hello World'[39m(B[m[?12l[?25h[?25l)[58d[K[2;27H[?12l[?25h[?25l;[?12l[?25h[?25l[58d(B[0;7mSave modified buffer?                                                                                                                                          [59;1H Y(B[m Yes[K[60d(B[0;7m N(B[m No  [60;17H(B[0;7m^C(B[m Cancel[K[58;23H[?12l[?25h[?25l[59d(B[0;7m^G(B[m Get Help[59;40H(B[0;7mM-D(B[m DOS Format[59;79H(B[0;7mM-A(B[m Append[59;118H(B[0;7mM-B(B[m Backup File[60d(B[0;7m^C(B[m Cancel[17G         [60;40H(B[0;7mM-M(B[m Mac Format[60;79H(B[0;7mM-P(B[m Prepend[60;118H(B[0;7m^T(B[m To Files[58d(B[0;7mFile Name to Write: index.js(B[m[58;29H[?12l[?25h[?25l[58;72H[1K (B[0;7m[ Writing... ](B[m[K[1;150H(B[0;7m        (B[m[58;72H(B[0;7m[ Wrote 1 line ](B[m[J[60d[?12l[?25h[60;1H[?1049l[23;0;0t[?1l>[?2004l]0;root@f7b10cf939d6: /usr/src/approot@f7b10cf939d6:/usr/src/app# exit
+exit
+bash-3.2$ exit
+exit
+
+Script done on Mon Jan 10 13:58:15 2022
