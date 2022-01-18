@@ -1,8 +1,14 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const todoSchema = new mongoose.Schema({
-  text: String,
-  done: Boolean
-})
+    text: String,
+    done: Boolean
+});
 
-module.exports = mongoose.model('Todo', todoSchema)
+todoSchema.set('toJSON', {
+    transform: (document, returnedObject) => {
+        delete returnedObject.__v;
+    }
+});
+
+module.exports = mongoose.model('Todo', todoSchema);
