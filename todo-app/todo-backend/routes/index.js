@@ -4,6 +4,7 @@ const redis = require('../redis');
 const configs = require('../util/config');
 
 let visits = 0;
+let todos = 0;
 
 /* GET index data. */
 router.get('/', async (req, res) => {
@@ -14,5 +15,7 @@ router.get('/', async (req, res) => {
         visits
     });
 });
+
+
 
 module.exports = router;
