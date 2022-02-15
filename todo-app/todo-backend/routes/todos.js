@@ -20,11 +20,12 @@ router.get('/', async (_, res) => {
 
 /* POST todo to listing. */
 router.post('/', async (req, res) => {
+    console.log('req: ', req);
     const todo = await Todo.create({
-        text: req.body.text,
+        text: req.query.text,
         done: false
     });
-
+    console.log('todo: ', todo);
     incrementTodoCounter();
 
     res.send(todo);

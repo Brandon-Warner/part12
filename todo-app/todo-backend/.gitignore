@@ -63,3 +63,6 @@ typings/
 # mongo_data dir
 mongo_data/
 data/
+
+# redis persisted data
+redis_data/
